@@ -1,27 +1,41 @@
-# Twitter
+# Twitter clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### A locally functional version of Twitter with a new UI and new features - 5/2/2018
 
-## Development server
+#### By **Ami**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+A local rebuild of Twitter.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| Program will take user's name and chosen username | "Ami", "AmisTwitter" | name: Ami, username: @AmisTwitter|
+| Program will allow user to "tweet" and have it appear in their newsfeed | "I am writing a tweet" | "I am writing a tweet" |
+| Program will allow search through the timeline | "#dogs" | [all posts containing #dogs] |
+| Program has a list of trending topics and when clicked, tweets related to those topics will populate the timeline | *user clicks "dogs"* | [all posts containing dogs] |
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Setup/Installation Requirements
 
-## Running unit tests
+1. Clone from GitHub repository [https://github.com/amiraine/twitter-clone.git]
+2. Run `install -g @angular/cli@1.6.5`
+3. Run `brew upgrade node`
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
+* No known bugs at this time.
 
-## Running end-to-end tests
+## Technologies Used
+  -Angular
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Support and contact details
 
-## Further help
+_Email the authors with any questions, comments, or concerns._
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+
+*{This software is licensed under the MIT license}*
+
+Copyright (c) 2018 **_{Ami}_**
