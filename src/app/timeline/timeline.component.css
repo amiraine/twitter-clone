@@ -1,3 +1,7 @@
 .tweet-input{
+  padding-top: 15px;
   background-color: #E8F4FB;
+}
+.user-input{
+  margin-top: 10px;
 }

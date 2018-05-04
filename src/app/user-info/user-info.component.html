@@ -1,3 +1,21 @@
-<p>
-  user-info works!
-</p>
+<div class="identity">
+  <img src="./assets/usericon.png">
+  <br>{{newUser.name}}
+  <br>{{newUser.handle}}
+  <div class="stats">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="small-headers">Tweets</span>
+        <br><span class="stats">{{newUser.tweets}}</span>
+      </div>
+      <div class="col-md-4">
+        <span class="small-headers">Following</span>
+        <br><span class="stats">{{newUser.following}}</span>
+      </div>
+      <div class="col-md-4">
+        <span class="small-headers">Followers</span>
+        <br><span class="stats">{{newUser.followers}}</span>
+      </div>
+    </div>
+</div>
+</div>
