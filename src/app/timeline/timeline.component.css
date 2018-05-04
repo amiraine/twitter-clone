@@ -23,3 +23,6 @@ img#user{
   max-width: 20px;
   float:left;
 }
+img.avatar{
+  max-width: 48px;
+}

@@ -6,3 +6,13 @@
 * new tweet input
 * The TL
 * suggested follows
+
+
+
+----
+
+What do I need now?
+
+* add pipes onto trending topics and maybe the search bar
+* add user icons
+* make it so tweet counter updates when u post
