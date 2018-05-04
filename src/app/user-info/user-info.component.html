@@ -1,7 +1,9 @@
 <div class="identity">
-  <img src="./assets/usericon.png">
-  <br><span class="display-name">{{newUser.name}}</span>
-  <br><span class="handle">{{newUser.handle}}</span>
+  <div class="me-irl">
+    <img src="./assets/usericon.png">
+    <br><span class="display-name">{{newUser.name}}</span>
+    <br><span class="handle">{{newUser.handle}}</span>
+  </div>
   <div class="stats">
     <div class="row">
       <div class="col-md-4">
@@ -17,5 +19,11 @@
         <br><span class="stats">{{newUser.followers}}</span>
       </div>
     </div>
-</div>
+  </div>
+  <div class="edit-user-info">
+    <input name="edit-display">
+    <input name="edit-handle">
+    <br><button name="edit" class="round-corner">Edit profile</button>
+    <button name="finish-edit" class="round-corner">Finish editing</button>
+  </div>
 </div>
