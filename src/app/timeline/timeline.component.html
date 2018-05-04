@@ -5,15 +5,16 @@
         <img src="./assets/usericon.png" id="user">
       </div>
       <div class="col-md-11">
-        <textarea class="tweet-form"ref-textarea rows="3" cols="59" placeholder="What's happening?" [(ngModel)]="content"></textarea>
+        <textarea class="tweet-form"ref-textarea rows="3" placeholder="What's happening?" [(ngModel)]="content"></textarea>
         <br><button class="round-corner post-tweet" name="tweet-submit"  id="tweet-submit" (click)='makeTweet(textarea.value); content=""'>Tweet</button>
       </div>
     </div>
   </div>
   <div class="the-tl" *ngFor="let tweet of tweets">
     <div class="new-tweet">
-      <span class="display-name">{{tweet.name}}</span>   <span class="handle">{{tweet.username}}</span>
+      <span class="display-name">{{tweet.name}}</span>   <span class="handle">@{{tweet.username}}</span>
       <br>{{tweet.tweet}}
+      <br><img src="{{tweet.img}}" alt="">
       <div class="row">
         <div class="col-md-2">
           <img src="./assets/reply.png" alt="" class="stat-icon">{{tweet.replies}}
