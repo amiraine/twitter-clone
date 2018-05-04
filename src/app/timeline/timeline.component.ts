@@ -12,7 +12,7 @@ export class TimelineComponent implements OnInit {
   tweets: Tweet[] = [
     new Tweet('bob','@bob','I need more coffee #TGIF'),
     new Tweet('Trillary Clinton','@gaymergirl','Lorem ipsum dolor amet palo santo la croix paleo coloring book portland deep v literally forage copper mug taiyaki.'),
-    new Tweet('russianspambot','@cyka','You probably haven\'t heard of them beard prism literally squid.')
+    new Tweet('russianspambot','@cyka','You eprobably haven\'t heard of them beard prism literally squid.')
   ];
   makeTweet(tweet){
     let newTweet = new Tweet('user','@user',tweet);

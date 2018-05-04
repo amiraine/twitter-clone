@@ -9,9 +9,11 @@
         <br><button class="round-corner post-tweet" name="tweet-submit"  id="tweet-submit" (click)='makeTweet()'>Tweet</button>
       </div>
     </div>
-    <div class="the-tl">
-      <p *ngFor="let tweet of tweets"> {{tweets.name}} {{tweets.username}} {{tweets.tweet}}
-      </p>
+  </div>
+  <div class="the-tl" *ngFor="let tweet of tweets">
+    <div class="new-tweet">
+      <span class="display-name">{{tweet.name}}</span><span class="handle">{{tweet.username}}</span>
+      <br>{{tweet.tweet}}
     </div>
   </div>
 </div>
