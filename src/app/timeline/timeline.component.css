@@ -4,6 +4,10 @@
   padding-bottom: 2px;
   padding-left: 18px;
 }
+.tweet-form{
+  min-width: 95%;
+  word-wrap: normal;
+}
 img#user{
   max-width: 32px;
 }
