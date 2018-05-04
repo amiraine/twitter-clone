@@ -4,3 +4,18 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
 }
+.container-fluid{
+
+}
+.round-corner{
+  border-radius: 19px;
+}
+button.round-corner{
+  background-color: #48AAE6;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+}

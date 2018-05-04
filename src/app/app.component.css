@@ -23,7 +23,12 @@
   border-radius: 19px;
 }
 h6{
-  padding-top: 6px;
+  padding-top: 7px;
+  color: #66757f;
+}
+h6:hover{
+  color: #1B95E0;
+  text-decoration: underline #1B95E0;
 }
 .search-twitter{
   background-color: #f5f8fa;
@@ -33,13 +38,4 @@ h6{
   padding-left: 12px;
   padding-right: 32px;
   font-size: 12px;
-}
-button.round-corner{
-  background-color: #48AAE6;
-  color: white;
-  border: none;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
