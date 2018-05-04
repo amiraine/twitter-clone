@@ -22,11 +22,10 @@
 .round-corner{
   border-radius: 19px;
 }
-h6{
-  padding-top: 7px;
+p{
   color: #66757f;
 }
-h6:hover{
+p:hover{
   color: #1B95E0;
   text-decoration: underline #1B95E0;
 }
