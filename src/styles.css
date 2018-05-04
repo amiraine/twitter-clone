@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* set height for search bar */
+/*set margin for container-fluid*/
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
