@@ -1,6 +1,11 @@
 .tweet-input{
   padding-top: 15px;
   background-color: #E8F4FB;
+  padding-bottom: 2px;
+  padding-left: 18px;
+}
+img#user{
+  max-width: 32px;
 }
 .user-input{
   margin-top: 10px;

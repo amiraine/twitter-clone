@@ -7,6 +7,11 @@ body {
 .container-fluid{
 
 }
+.tweet-form{
+  border-radius: 8px;
+  background-color: white;
+  border: solid 1px #A3D4F2;
+}
 .round-corner{
   border-radius: 19px;
 }
@@ -18,4 +23,12 @@ button.round-corner{
   padding-bottom: 6px;
   padding-left: 16px;
   padding-right: 16px;
+}
+.handle{
+  color: #657786;
+}
+.display-name{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
 }
