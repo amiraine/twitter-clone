@@ -14,6 +14,20 @@
     <div class="new-tweet">
       <span class="display-name">{{tweet.name}}</span><span class="handle">{{tweet.username}}</span>
       <br>{{tweet.tweet}}
+      <div class="row">
+        <div class="col-md-2">
+          <img src="./assets/reply.png" alt="" class="stat-icon">{{tweet.replies}}
+        </div>
+        <div class="col-md-2">
+          <img src="./assets/rt.png" alt="" class="stat-icon"> {{tweet.retweets}}
+        </div>
+        <div class="col-md-2">
+          <img src="./assets/like.png" alt="" class="stat-icon">{{tweet.likes}}
+        </div>
+        <div class="col-md-6">
+<!-- leave empty -->
+        </div>
+      </div>
     </div>
   </div>
 </div>
