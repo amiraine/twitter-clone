@@ -1,0 +1,16 @@
+.topic{
+  color: #1B95E0;
+  font-weight: bold;
+}
+.topic:hover{
+  text-decoration: underline;
+}
+.subtitle{
+  font-size: 10px;
+  color:#66757f;
+}
+.trends{
+  margin-top: 15px;
+  padding:18px;
+  background-color: white;
+}

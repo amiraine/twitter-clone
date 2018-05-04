@@ -15,10 +15,7 @@
 .search{
   text-align: center;
 }
-.container-fluid{
-  background-color: #e6ecf0;
-  height: 100vh;
-}
+
 .round-corner{
   border-radius: 19px;
 }
