@@ -6,10 +6,15 @@ import { User } from './../models/user.model';
   styleUrls: ['./user-info.component.css']
 })
 export class UserInfoComponent implements OnInit {
-
   constructor() { }
-
   ngOnInit() {
   }
-  newUser = new User('Ami','@ik4rus')
+  newUser = new User('Ami','ik4rus')
+  thisForm = false;
+  editProfile(){
+    this.thisForm = true;
+  }
+  finishEditing(){
+    this.thisForm = false;
+  }
 }
