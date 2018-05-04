@@ -1,1 +1,10 @@
 /*make container fluid light grey.*/
+.search-bar{
+  background-color: white;
+  min-height: 46px;
+  background-image: url('http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png');
+}
+.container-fluid{
+  background-color: #e6ecf0;
+  height: 100vh;
+}
