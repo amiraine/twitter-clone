@@ -8,4 +8,11 @@
       <br><button class="round-corner post-tweet" name="tweet-submit"  id="tweet-submit">Tweet</button>
     </div>
   </div>
+  <div class="the-tl">
+    <span *ngFor="let newTweet of tweetTL"><div class="timeline-tweet">
+      <span class="display-name-TL">{{tweetTL.displayName}}</span> <span class="handle-name-TL">{{tweetTL.atName}}</span>
+      <br>
+      {{tweetTL.tweetContent}}
+    </div></span>
+  </div>
 </div>
