@@ -21,10 +21,11 @@
 }
 p{
   color: #66757f;
+  font-size: 12px;
 }
-p:hover{
+.icons:hover{
   color: #1B95E0;
-  text-decoration: underline #1B95E0;
+  border-bottom: solid 3px #1B95E0;
 }
 .search-twitter{
   background-color: #f5f8fa;
@@ -34,4 +35,7 @@ p:hover{
   padding-left: 12px;
   padding-right: 32px;
   font-size: 12px;
+}
+.nav-icon{
+  margin-right: 10px;
 }
