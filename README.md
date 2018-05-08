@@ -1,11 +1,17 @@
 # Twitter clone
 
-#### A locally functional version of Twitter with a new UI and new features - 5/2/2018
+#### A locally functional version of Twitter - 5/2/2018
 
 #### By **Ami**
 
 ## Description
-A local rebuild of Twitter.
+A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that contains the following UI features:
+  * A top-anchored navigation bar.
+  * User module containing avatar, name, and username
+  * Trending topic module
+  * New tweet input
+  * A timeline populated with tweets from other "users"
+
 
 
 ### Specs
@@ -28,7 +34,8 @@ A local rebuild of Twitter.
 * No known bugs at this time.
 
 ## Technologies Used
-  -Angular
+  * Angular 6.0
+  * Bootstrap 4.0
 
 ## Support and contact details
 
