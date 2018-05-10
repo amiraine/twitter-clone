@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { TrendingComponent } from './trending/trending.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { HomeComponent } from './home/home.component';
+import { MomentsComponent } from './moments/moments.component';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
@@ -13,7 +17,11 @@ import { TimelineComponent } from './timeline/timeline.component';
     AppComponent,
     UserInfoComponent,
     TrendingComponent,
-    TimelineComponent
+    TimelineComponent,
+    HomeComponent,
+    MomentsComponent,
+    NotificationsComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
