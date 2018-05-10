@@ -13,6 +13,15 @@
 
 What do I need now?
 
-* add pipes onto trending topics and maybe the search bar
-* add user icons
-* make it so tweet counter updates when u post
+* add firebase for messages
+* add service for user
+* add service for liking tweet
+  * make a click counter
+  * if(count % 2 ===0){
+    like +=1
+  } else if(count % 2 === 1){
+    like -= 1
+  };
+
+* populate news stories with some shit
+* populate notifications with some shit that basically just takes you back to the TL

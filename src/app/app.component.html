@@ -5,47 +5,24 @@
     <title></title>
   </head>
   <body>
-  <div class="search-bar">
-    <div class="row">
-      <div class="col-md-6 nav-bar">
-        <div class="row">
-          <div class="col-md-3 icons">
-            <img src="./assets/home.png" alt="" class="nav-icon">
-            <p>Home</p>
-          </div>
-          <div class="col-md-3 icons">
-            <img src="./assets/news.png" alt="" class="nav-icon">
-            <p>Moments</p>
-          </div>
-          <div class="col-md-3 icons">
-            <img src="./assets/note.png" alt="" class="nav-icon">
-            <p>Notifications</p>
-          </div>
-          <div class="col-md-3 icons">
-            <img src="./assets/msg.png" alt="" class="nav-icon">
-            <p>Messages</p>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="icons">
+        <a class="nav-link" routerLink=''><img src="./assets/home.png" alt="" class="nav-icon">Home</a>
       </div>
-      <div class="col-md-6 search">
+      <div class="icons">
+        <a class="nav-link" routerLink='moments'><img src="./assets/news.png" alt="" class="nav-icon">Moments</a>
+      </div>
+      <div class="icons">
+        <a class="nav-link" routerLink='notifications'><img src="./assets/note.png" alt="" class="nav-icon">Notifications</a>
+      </div>
+      <div class="icons">
+        <a class="nav-link" routerLink='messages'><img src="./assets/msg.png" alt="" class="nav-icon">Messages</a>
+      </div>
+      <form class="form-inline">
         <input class="round-corner search-twitter" type="text" placeholder="Search Twitter">
         <button class="round-corner post-tweet" name="Tweet" float="right">Tweet</button>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3">
-        <app-user-info></app-user-info>
-        <app-trending></app-trending>
-      </div>
-      <div class="col-md-7">
-        <app-timeline></app-timeline>
-      </div>
-      <div class="col-md-2">
-<!-- leave empty -->
-      </div>
-    </div>
-  </div>
+      </form>
+    </nav>
+  <router-outlet></router-outlet>
   </body>
 </html>

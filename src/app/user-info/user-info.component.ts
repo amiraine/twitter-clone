@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from './../models/user.model';
+import { Tweet } from './../models/tweet.model';
 @Component({
   selector: 'app-user-info',
   templateUrl: './user-info.component.html',
@@ -10,6 +11,7 @@ export class UserInfoComponent implements OnInit {
   ngOnInit() {
   }
   newUser = new User('Ami','ik4rus')
+  newTweet = new Tweet('Ami','ik4rus','./assets/usericon.png','','',0,0,0);
   thisForm = false;
   editProfile(){
     this.thisForm = true;
