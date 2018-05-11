@@ -8,9 +8,10 @@ import { Note } from '../models/note.model';
 })
 export class MessagesComponent implements OnInit {
   notes: Note[] = [
-    new Note("Bob", "Lorem ipsum dolor amet drinking vinegar green juice meggings vice. Ethical hell of readymade pork belly","all"),
-    new Note("some guy", " gluten-free distillery disrupt asymmetrical helvetica direct trade.", "all"),
-    new Note("riley", "cho park PBR&B banh mi, humblebrag meditation next level yr salvia direct trade. Slow-carb la croix master cleanse biodiesel @ik4rus", "mentions")
+    new Note("Bob", "Hi how are you?","all"),
+    new Note("Nigerian Prince", "REQUEST FOR ASSISTANCE-STRICTLY CONFIDENTIAL, I am Dr. Bakare Tunde, the cousin of Nigerian Astronaut...", "all"),
+    new Note("riley", "lol ttyl", "mentions"),
+    new Note("yawn","lorem ipsum", "")
   ]
   constructor() { }
 
