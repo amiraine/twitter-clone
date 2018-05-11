@@ -20,7 +20,17 @@ A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that cont
   * search bar at the top can be used to dynamically filter timeline tweets using pipes.
   * add dynamic routing for tweets on click (possibly as a modal or a div with higher z-index)
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements (for users)
+1. Clone from GitHub repository [https://github.com/amiraine/twitter-clone.git]
+2. Run `install -g @angular/cli@1.6.5`
+3. Run `brew upgrade node`
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+-- OR --
+
+Access the site hosted on firebase [https://twitter-clone-e1f9a.firebaseapp.com/]
+
+## Setup/Installation Requirements (for developers)
 
 1. Clone from GitHub repository [https://github.com/amiraine/twitter-clone.git]
 2. Run `install -g @angular/cli@1.6.5`
@@ -38,7 +48,8 @@ A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that cont
 7. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Known Bugs
-* No known bugs at this time.
+* the "Reverse Pipe" specified in src/app/reverse.pipe.ts sometimes stops working and un-inverts the timeline (only on Firebase)
+
 
 ## Technologies Used
   * Angular 6.0
