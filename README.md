@@ -6,29 +6,36 @@
 
 ## Description
 A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that contains the following UI features:
-  * A top-anchored navigation bar.
-  * User module containing avatar, name, and username
+  * A top-anchored navigation bar using angular routing.
+  * User module containing avatar, name, and username where name and username are editable via two-way binding
   * Trending topic module
-  * New tweet input
   * A timeline populated with tweets from other "users"
+    * The timeline can be added to by the user.
+    * All tweets are stored on a remote server
 
-
-
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| Program will take user's name and chosen username | "Ami", "AmisTwitter" | name: Ami, username: @AmisTwitter|
-| Program will allow user to "tweet" and have it appear in their newsfeed | "I am writing a tweet" | "I am writing a tweet" |
-| Program will allow search through the timeline | "#dogs" | [all posts containing #dogs] |
-| Program has a list of trending topics and when clicked, tweets related to those topics will populate the timeline | *user clicks "dogs"* | [all posts containing dogs] |
-
+# Reach goals for this project
+  * user can increase the 'like' count by one using an on-click toggle, similar to the real Twitter
+  * user can update their user avatar (you can do this manually by replacing /src/assets/usericon.png with 72x72px image of your choice. For best results, circularly trim your image so the edges are transparent)
+  * the trending topic 'links' link to separate pages populated by 'tweets' containing those keywords or hashtags
+  * search bar at the top can be used to dynamically filter timeline tweets using pipes.
+  *
 
 ## Setup/Installation Requirements
 
 1. Clone from GitHub repository [https://github.com/amiraine/twitter-clone.git]
 2. Run `install -g @angular/cli@1.6.5`
 3. Run `brew upgrade node`
-4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4. Create Firebase real-time database for this project and set 'read' and 'write' to `true`.
+5. Create file /src/app/api-key.ts and add
+`export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };` where all of the xxxx's are the credentials from the Firebase project.
+6. On Firebase, so that the timeline is not blank, you may import `timeline.json` from the root directory for sample tweets.
+7. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Known Bugs
 * No known bugs at this time.
