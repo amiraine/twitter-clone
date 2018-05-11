@@ -28,7 +28,7 @@
               <img src="./assets/rt.png" alt="" class="stat-icon"> {{tweet.retweets}}
             </div>
             <div class="col-md-2">
-              <img src="./assets/like.png" alt="" class="stat-icon">{{tweet.likes}}
+              <img src="./assets/like.png" alt="" class="stat-icon" (click)="addLike(clickedTweet)">{{tweet.likes}}
             </div>
             <div class="col-md-6">
             </div>

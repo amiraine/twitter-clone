@@ -3,7 +3,7 @@ import { Tweet } from './../models/tweet.model';
 import { UserInfoComponent } from './../user-info/user-info.component'
 import { TimelineService } from '../timeline.service';
 import { FirebaseListObservable } from 'angularfire2/database';
-
+import { LikeService } from '../like.service';
 
 
 
@@ -26,9 +26,4 @@ export class TimelineComponent implements OnInit {
     var newTweet = new Tweet('Ami', 'ik4rus', './assets/usericon.png',tweet,'',0,0,0);
     this.timelineService.postTweet(newTweet);
   }
-  // makeTweet(tweet){
-  //   let newTweet = new Tweet('Ami','ik4rus','./assets/usericon.png',tweet,'',0,0,0);
-  //   this.tweets.splice(0,0,newTweet);
-  // }
-
 }

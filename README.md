@@ -8,7 +8,7 @@
 A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that contains the following UI features:
   * A top-anchored navigation bar using angular routing.
   * User module containing avatar, name, and username where name and username are editable via two-way binding
-  * Trending topic module
+  * Trending topic module (purely decorative, has no functionality)
   * A timeline populated with tweets from other "users"
     * The timeline can be added to by the user.
     * All tweets are stored on a remote server

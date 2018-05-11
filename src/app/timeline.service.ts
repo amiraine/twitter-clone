@@ -11,8 +11,6 @@ export class TimelineService {
     this.tweets = database.list('tweets')
   }
   getTweets(){
-    let timeline: Tweet [];
-    // for(var i = this.tweets.length; )
     return this.tweets;
   }
   postTweet(newTweet: Tweet){
