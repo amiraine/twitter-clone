@@ -61,6 +61,9 @@ button.round-corner{
 img{
   max-width: 400px;
 }
+.round-corner{
+  border-radius: 19px;
+}
 nav{
   background-color: white;
   padding-bottom: 0px;
