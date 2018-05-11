@@ -5,8 +5,8 @@
         <img src="./assets/usericon.png" id="user">
       </div>
       <div class="col-md-11">
-        <textarea class="tweet-form"ref-textarea rows="3" placeholder="What's happening?" [(ngModel)]="content"></textarea>
-        <br><button class="round-corner post-tweet" name="tweet-submit"  id="tweet-submit" (click)='makeTweet(textarea.value); content=""'>Tweet</button>
+        <textarea class="tweet-form"ref-textarea rows="3" placeholder="What's happening?" [(ngModel)]="content" #newTweet></textarea>
+        <br><button class="round-corner post-tweet" name="tweet-submit" id="tweet-submit" (click)='makeTweet(newTweet.value); content=""'>Tweet</button>
       </div>
     </div>
   </div>

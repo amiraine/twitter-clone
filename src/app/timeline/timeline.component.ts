@@ -3,6 +3,10 @@ import { Tweet } from './../models/tweet.model';
 import { UserInfoComponent } from './../user-info/user-info.component'
 import { TimelineService } from '../timeline.service';
 import { FirebaseListObservable } from 'angularfire2/database';
+
+
+
+
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
@@ -15,7 +19,12 @@ export class TimelineComponent implements OnInit {
     this.tweets = this.timelineService.getTweets();
   }
   tweets: FirebaseListObservable<any[]>;
+  timeline: Tweet[];
 
+  makeTweet(tweet: string){
+    var newTweet = new Tweet('Ami', 'ik4rus', './assets/usericon.png',tweet,'',0,0,0);
+    this.timelineService.postTweet(newTweet);
+  }
   // makeTweet(tweet){
   //   let newTweet = new Tweet('Ami','ik4rus','./assets/usericon.png',tweet,'',0,0,0);
   //   this.tweets.splice(0,0,newTweet);

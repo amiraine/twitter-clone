@@ -13,4 +13,7 @@ export class TimelineService {
   getTweets(){
     return this.tweets;
   }
+  postTweet(newTweet: Tweet){
+    this.tweets.push(newTweet)
+  }
 }
