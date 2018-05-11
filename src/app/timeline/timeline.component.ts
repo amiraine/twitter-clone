@@ -21,6 +21,7 @@ export class TimelineComponent implements OnInit {
   tweets: FirebaseListObservable<any[]>;
   timeline: Tweet[];
 
+
   makeTweet(tweet: string){
     var newTweet = new Tweet('Ami', 'ik4rus', './assets/usericon.png',tweet,'',0,0,0);
     this.timelineService.postTweet(newTweet);
