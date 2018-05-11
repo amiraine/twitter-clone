@@ -1,0 +1,62 @@
+
+{ "tweets": [{
+    "name": "Bob",
+    "username": "bob",
+    "icon": "./assets/bob.png",
+    "tweet": "I need more coffee #TGIF",
+    "img": "",
+    "replies": "0",
+    "retweets": "3",
+    "likes": "5"
+  },
+  {
+    "name": "Trillary Clinton",
+    "username": "gaymergirl",
+    "icon": "./assets/trill.png",
+    "tweet": "tfe you pass your code review on the first try",
+    "img": "https://img.buzzfeed.com/buzzfeed-static/static/enhanced/terminal05/2012/6/2/10/anigif_enhanced-buzz-25833-1338648475-5.gif",
+    "replies": "1",
+    "retweets": "3",
+    "likes": "2"
+  },
+  {
+    "name": "russian spam bot",
+    "username": "cyka",
+    "icon": "./assets/cyka.png",
+    "tweet": "just saw infinity war, my life is ruined now",
+    "img": "",
+    "replies": "2",
+    "retweets": "2",
+    "likes": "10"
+  },
+  {
+    "name": "Kanye West",
+    "username": "kanyewest",
+    "icon": "./assets/kanye.png",
+    "tweet": "*narcissistic screeching noises*",
+    "img": "",
+    "replies": "903",
+    "retweets": "3",
+    "likes": "10"
+  },
+  {
+    "name": "Bob",
+    "username": "bob",
+    "icon": "./assets/bob.png",
+    "tweet": "Cats are literally the best animal",
+    "img": "http://purrtacular.com/wp-content/uploads/2016/12/tongue-cats-01.jpg",
+    "replies": "0",
+    "retweets": "19",
+    "likes": "32"
+  },
+  {
+    "name": "sadult",
+    "username": "urvillageidiot",
+    "icon": "./assets/idiot.png",
+    "tweet": "shitposting is more than just an art, it's a lifestyle",
+    "img": "",
+    "replies": "5",
+    "retweets": "20",
+    "likes": "143"
+  }]
+}
