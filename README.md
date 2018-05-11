@@ -28,7 +28,7 @@ A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that cont
 
 -- OR --
 
-Access the site hosted on firebase [https://twitter-clone-e1f9a.firebaseapp.com/]
+Access the site hosted on firebase [https://epicodus-twitter.firebaseapp.com]
 
 ## Setup/Installation Requirements (for developers)
 
@@ -49,6 +49,7 @@ Access the site hosted on firebase [https://twitter-clone-e1f9a.firebaseapp.com/
 
 ## Known Bugs
 * the "Reverse Pipe" specified in src/app/reverse.pipe.ts sometimes stops working and un-inverts the timeline (only on Firebase)
+* when you're typing a new tweet, the timeline will start randomly flickering/swapping tweets around.
 
 
 ## Technologies Used
