@@ -1,0 +1,9 @@
+.wrapped{
+  margin-top: 15px;
+  background-color: white;
+  padding:18px;
+  border: solid 1px #e6ecf0;
+}
+.wrapped:hover{
+  background-color: #E8F4FB;
+}
