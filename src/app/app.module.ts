@@ -16,6 +16,7 @@ import { MessagesComponent } from './messages/messages.component';
 import {masterFirebaseConfig} from './api-keys';
 import {AngularFireModule} from 'angularfire2';
 import {AngularFireDatabaseModule} from 'angularfire2/database';
+import { ReversePipe } from './reverse.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     HomeComponent,
     MomentsComponent,
     NotificationsComponent,
-    MessagesComponent
+    MessagesComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule,

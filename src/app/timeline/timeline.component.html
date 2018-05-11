@@ -10,13 +10,13 @@
       </div>
     </div>
   </div>
-  <div class="the-tl" *ngFor="let tweet of tweets | async">
+  <div class="the-tl" *ngFor="let tweet of tweets | async | reverse">
     <div class="new-tweet">
       <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-1 icon-spot">
           <img src="{{tweet.icon}}" alt="" class="avatar">
         </div>
-        <div class="col-md-11">
+        <div class="col-md-11 twit-content">
           <span class="display-name">{{tweet.name}}</span>   <span class="handle">@{{tweet.username}}</span>
           <br>{{tweet.tweet}}
           <br><img src="{{tweet.img}}" alt="">

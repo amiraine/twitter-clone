@@ -11,6 +11,13 @@
 img#user{
   max-width: 32px;
 }
+.icon-spot{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.twit-content{
+  padding-left: 10px;
+}
 .user-input{
   margin-top: 10px;
 }
