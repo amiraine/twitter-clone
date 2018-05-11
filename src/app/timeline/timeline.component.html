@@ -10,7 +10,7 @@
       </div>
     </div>
   </div>
-  <div class="the-tl" *ngFor="let tweet of tweets">
+  <div class="the-tl" *ngFor="let tweet of tweets | async">
     <div class="new-tweet">
       <div class="row">
         <div class="col-md-1">
