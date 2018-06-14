@@ -13,7 +13,7 @@ A local rebuild of Twitter (https://twitter.com/) built in Angular 6.0 that cont
     * The timeline can be added to by the user.
     * All tweets are stored on a remote server
 
-# Reach goals for this project (these bullet points will be moved up into the Description section as/if they are completed)
+## Reach goals for this project (these bullet points will be moved up into the Description section as/if they are completed)
   * user can increase the 'like' count by one using an on-click toggle, similar to the real Twitter
   * user can update their user avatar (you can do this manually by replacing /src/assets/usericon.png with 72x72px image of your choice. For best results, circularly trim your image so the edges are transparent)
   * the trending topic 'links' link to separate pages populated by 'tweets' containing those keywords or hashtags
